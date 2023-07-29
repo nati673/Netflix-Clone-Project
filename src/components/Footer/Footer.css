@@ -1,0 +1,133 @@
+/* Footer Styles */
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 175px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footercon {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 50px;
+  background-color: transparent;
+}
+
+.footer .flex1 {
+  color: #999;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 17px;
+  min-height: 20px;
+}
+
+.footer .flex1 h5 {
+  align-self: flex-start;
+}
+
+h5{
+  text-align: start;
+}
+.list1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: flex-start;
+  align-self: center;
+  justify-content: center;
+  min-height: 50px;
+  font-size: 13px;
+  padding: 0px 70px;
+  text-align: left;
+}
+
+.list1 li {
+  font-size: 13px;
+  margin: 7px -10px;
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: center;
+  align-self: flex-start;
+  justify-content: center;
+}
+.txx{
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.list1 li a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+li a {
+  font-size: 13px;
+  font-family: sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  color: #999;
+}
+
+.footertxt {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+li a:hover{
+  color: white;
+}
+.ennd:hover{
+  color: white;
+}
+.ennd {
+  width: 100%;
+  font-family: sans-serif;
+  min-height: 50px;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #999;
+
+  margin-top: 30px;
+  /* margin-top: -60px; */
+}
+
+.ennd  {
+  display: flex;
+  /* flex-direction: row; */
+  font-size: 12px;
+}
+
+@media (min-width: 250px) and (max-width: 980px) {
+  /* Responsive Styles */
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+  }
+
+  /* ... Other responsive styles ... */
+}
